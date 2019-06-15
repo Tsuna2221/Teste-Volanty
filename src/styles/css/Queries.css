@@ -1,0 +1,14 @@
+@media (min-width: 300px) and (max-width: 767px) {
+  .App {
+    display: block !important; }
+    .App .Form {
+      width: -webkit-fill-available !important;
+      width: -moz-available !important; }
+    .App .Vehicle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100vh; }
+      .App .Vehicle div {
+        margin: 0; } }

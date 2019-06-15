@@ -1,0 +1,23 @@
+.Form {
+  width: 400px;
+  background-color: #fff; }
+  .Form select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    height: 35px; }
+    .Form select:disabled {
+      background-color: #ececec; }
+
+.button {
+  transition: 0.24s ease;
+  font-size: 14px;
+  width: fit-content;
+  width: -moz-fit-content;
+  padding: 10px 25px;
+  border: 1px solid #9c9c9c;
+  border-radius: 100px;
+  color: #9c9c9c;
+  cursor: pointer; }
+  .button:hover {
+    background-color: #9c9c9c;
+    color: #fff; }
